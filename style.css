@@ -1,0 +1,111 @@
+html, body {
+    font-family: 'Fredoka One', cursive;
+}
+
+textarea
+{
+    display: block;
+    width:70%;
+    height:20em;
+    margin:auto;
+}
+
+.button{
+    display: block;
+    margin:auto;
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    padding: 16px 28px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Special Elite', cursive;
+}
+
+#questionPanel{
+    margin:auto;
+    width:50%;
+}
+
+#explainer{
+    margin:auto;
+    width:70%;
+    padding:16px;
+    font-family: 'Special Elite', cursive;
+    font-size:16px;
+    
+}
+
+
+.questionText{
+    font-size:25px;
+    color:#00000;
+    width:100%;
+    margin:auto;
+    padding:10px;
+    text-align:center;
+    font-family: 'Special Elite', cursive;
+}
+
+.option{
+    height:30px;
+    margin:15px;
+    font-size:20px;
+    color:white;
+    padding:10px;
+    border: 2px solid white;
+    background-color:#8585AD;
+    text-align:center;
+    font-family: 'Special Elite', cursive;
+}
+
+.option:hover{
+    border:#F2E586
+    solid 2px;
+    color:#F2E586;
+}
+
+
+#topBar{
+    height:50px;
+    margin-top:50px;
+    margin-left:50px;
+    color:#00000;
+    font-size:36px;
+    font-family: 'Fredoka One', cursive;
+    width:800px;
+}
+
+
+.correct{
+    display: block;
+    margin:auto;
+    width:150px;
+    padding:5px;
+    font-size:30px;
+    color:#FFFFFF;
+    background-color:#00b300;
+    font-family: 'Fredoka One', cursive;
+    text-align:center;
+}
+
+.incorrect{
+    display: block;
+    margin:auto;
+    width:150px;
+    padding:5px;
+    font-size:30px;
+    color:#FFFFFF;
+    background-color:#b30000;
+    font-family: 'Fredoka One', cursive;
+    text-align:center;
+}
+
+@media screen and (max-width:460px) {
+    #topBar{margin-left:1%;margin-right:1%;	width:96%;}
+    #questionPanel{margin:1%;	width:98%;}
+    
+}
+@media screen and (max-width:460px) {
+    .option{width:80%;margin:5%;}
+}

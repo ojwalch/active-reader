@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+    
+        <title>ActiveReader</title>
+        <link href="style.css"rel="stylesheet"type="text/css"/>
+        <meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <script src="jquery.js"></script>
+        <script src="scrubStopWords.js"></script>
+        <script src="quiz.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+            
+        <div id="topBar">ActiveReader</div>
+        <div id="explainer">This page generates a multiple choice quiz from an entered text. The goal is to help yourself read in a more active way, and (hopefully) improve comprehension and retention. I have no idea if it works or not! But at the very least, the fonts are weird which <a href="https://faculty.washington.edu/chudler/font.html">has been shown improve recall</a>.
+        <br><br>
+        </div>
+            
+        <form name="input" id="textInput">
+        
+        <textarea name="allText" id="allText" align="center" placeholder="Copy and paste your text here to generate a quiz"></textarea>
+        <br>
+        
+        <input type="button" onclick="parseString()" value="Generate Quiz" class="button"/>
+        
+        </form>
+            
+        <div id="questionPanel"></div>
+        </div>
+        
+    </body>
+</html>
